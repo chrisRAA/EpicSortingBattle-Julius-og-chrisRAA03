@@ -1,6 +1,6 @@
 import random
 
-#sort
+#sortering
 
 def bubble_sort(list1):
 
@@ -25,15 +25,15 @@ def bubble_sort(list1):
 
 
 
- #Main
 
 
-#Generate 500 random numbers between 1 and 100
 
-our_list = random.sample(range(1, 100), 10)
+#Generere 500 tilfældige tal mellem 1 og 100
 
-print("unsorted list ", our_list)
+our_list = random.sample(range(1, 100), 10)#laver en liste på 10 tilfældige tal mellem 1 og 100
+
+print("unsorted list ", our_list)#printer listen usorteret
 
 bubble_sort(our_list)
 
-print("sorted list", our_list)
+print("sorted list", our_list)#prnter den sorterede liste
