@@ -4,7 +4,7 @@ import random
 
 def bubble_sort(list1):
 
-    # Outer loop for traverse the entire list
+    # Outer loop for traverse the entire list.
 
     for i in range(0,len(list1)-1):#Den skal starte på 0 i listen og slutte på længden af listen - 1 fordi den en liste starter på 0 og ikke på 1
 
