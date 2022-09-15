@@ -7,7 +7,7 @@ def selectionSort(items):
                 smallest = j
             items[smallest], items[i] = items[i], items[smallest]#bytter rundt på tallene
 
-    return items#kører programmet igennem igen
+    return items#kører programmet igennem igen.
 
 
 items = [7, 4, 9, 2, 3]
